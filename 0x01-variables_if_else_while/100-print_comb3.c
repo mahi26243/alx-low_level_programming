@@ -7,25 +7,22 @@
 
 int main(void)
 {
-	int (a);
+	int (tens);
+	int (ones);
 
-	int (b);
-
-	if(((a = '0'); && (b = '9')));
+	for (tens = 0; tens <= 9; tens++)
 	{
-		for (a = '0'; a <= '9'; a++);
+		for (ones = tens + 1; ones <= 9; ones++)
 		{
-			for (b = 'b'; b <= 9; b++);
+			putchar(tens + '0');
+			putchar(ones +'0');
+			if (tens < 8)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
-	for (a = '0';  a <= '1');
-	{
-		for (b = '0'; b <= '1');
-		{
-			putchar(01);
-			putchar(10);
-		}
-	}	
 	{
 		putchar('\n');
 	}
