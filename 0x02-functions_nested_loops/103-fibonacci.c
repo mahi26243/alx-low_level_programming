@@ -16,7 +16,7 @@ int main(void)
 		next += b;
 		a = b - a;
 
-	        i++;
+	i++;
 
 	}
 	printf("%ld\n", next);
