@@ -1,14 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - prints the sum of all multipples of 3 or 5 up to 1024
- * 
+ * main - prints the sum of all multipples of 3 or 5 up to 1024 
  * Return: Always 0 (success)
 */
 int main(void)
 {
 	int i, z = 0;
-	while(i < 1024)
+	while (i < 1024)
 	{
 		if ((i % 3 == 0) || (i % 5 == 0))
 		{
