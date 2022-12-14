@@ -6,17 +6,17 @@
 */
 int main(void)
 {
-	int a = 0, b = 1, next =0;
-	int sum = 0;
+	int i = 0;
+	long a = 1, b = 2, next = b;
 
-	while (next < 4,000,000)
+	while (b + a < 4000000)
 	{
-		next = a + b;
-		a = b;
-		b = next;
-		if (next % 2 == 0)
-			sum += next;
+		b += a;
+		if (b % 2 == 0)
+		next += b;
+		a = b - a;
+	        i++;	
 	}
-	printf("%i\n", sum);
+	printf("%ld\n", next);
 	return (0);
 }
