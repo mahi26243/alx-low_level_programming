@@ -41,6 +41,6 @@ int main(void)
 		fib2_half2 = half2;
 	}
 	printf("\n");
-        return (0);
+	return (0);
 }
 
