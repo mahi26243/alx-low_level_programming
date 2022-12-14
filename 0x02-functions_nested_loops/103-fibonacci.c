@@ -14,7 +14,8 @@ int main(void)
 		b += a;
 		if (b % 2 == 0)
 		next += b;
-		a = b - a; i++;	
+		a = b - a;
+	       	i++;	
 	}
 	printf("%ld\n", next);
 	return (0);
