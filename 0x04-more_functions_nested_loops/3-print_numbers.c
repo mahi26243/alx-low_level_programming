@@ -13,9 +13,6 @@ void print_numbers(void)
 	{
 		_putchar(i + '0');
 		i++;
-	}	
-	{
-		_putchar('\n');
 	}
-	return (0);
+	_putchar('\n');
 }
