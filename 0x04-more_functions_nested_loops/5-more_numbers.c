@@ -19,7 +19,8 @@ void more_numbers(void)
 			}
 				_putchar((ro % 10) + '0');
 		}
-		_putchar (10);
+		_putchar(10);
 	}
+	return (0);
 }
 
