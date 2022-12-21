@@ -2,12 +2,12 @@
 
 /**
  * _strcmp - function which compare two strings
- * @s1: first string 
+ * @s1: first string
+ *
  * @s2: second string
- * return:
- *        reeturns zero if s1 == s2
- *        returs negative number if s1 < s2
- *        returns positive number if s1 > s2 
+ * Return: returns zero if s1 == s2,
+ *         returns negative number if s1 < s2,
+ *         returns positive number if s1 > s2
 */
 int _strcmp(char *s1, char *s2)
 {
@@ -32,10 +32,10 @@ int _strcmp(char *s1, char *s2)
 			diff = s1[i] - s2[i];
 			break;
 		}
-	        else
+		else
 		    i++;
 	}
-        return (diff);
+	return (diff);
 }
 
 
