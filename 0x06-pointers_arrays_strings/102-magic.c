@@ -16,7 +16,6 @@ int main(void)
 	 *
 	 * - only one statement
 	 * - you are not allowed to code anything else than this line of code
-	 * Return: always 0.
 	*/
 	*(p + 5) = 98;
 	/* ...so that ths prints 98\n */
