@@ -13,7 +13,6 @@ char *rot13(char *str)
 
 	char alphabet[52] =
 		"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	
 	char rot13key[52] =
 		"NOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklm";
 	
