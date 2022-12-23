@@ -12,9 +12,9 @@ char *rot13(char *str)
 	int index1;
 	int index2;
 
-	char alphabet[52] =
+	char alphabet[] =
 		"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char rot13key[52] =
+	char rot13key[] =
 		"NOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklm";
 	for (index1 = 0; str[index1] != '\0'; index1++)
 	{
