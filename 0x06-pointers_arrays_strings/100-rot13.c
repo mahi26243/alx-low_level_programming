@@ -11,7 +11,6 @@ char *rot13(char *str)
 {
 	int index1;
 	int index2;
-
 	char alphabet[] =
 		"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char rot13key[] =
