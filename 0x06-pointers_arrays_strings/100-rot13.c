@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * rot13 - encodes a string using rot13
@@ -11,8 +10,10 @@ char *rot13(char *str)
 {
 	int index1;
 	int index2;
+	
 	char alphabet[] =
 "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	
 	char rot13key[] =
 "NOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklm";
 	for (index1 = 0; str[index1] != '\0'; index1++)
