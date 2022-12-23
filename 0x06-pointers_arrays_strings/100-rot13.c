@@ -15,7 +15,6 @@ char *rot13(char *str)
 		"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char rot13key[52] =
 		"NOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklm";
-	
 	for (index1 = 0; str[index1] != '\0'; index1++)
 	{
 		for (index2 = 0; index2 < 52; index2++)
