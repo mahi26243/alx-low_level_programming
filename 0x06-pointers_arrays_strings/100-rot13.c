@@ -27,7 +27,6 @@ char *rot13(char *str)
 				break;
 			}
 		}
-		index1++;
 	}
 	return (str);
 }
