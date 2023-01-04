@@ -7,7 +7,7 @@
  *
  * Return: sqrt of number of -1 for error.
 */
-int helperFunction(int num,int pSqrt)
+int helperFunction(int num, int pSqrt)
 {
 	if ((pSqrt * pSqrt) == num)
 	{
@@ -33,6 +33,8 @@ int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	else 
+	else
+
 		return (helperFunction(n, 0));
-}	
+}
+
