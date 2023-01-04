@@ -15,12 +15,14 @@ int helperFunction(int num, int i)
 		{
 			return (0);
 		}
-		else 
+		else
+
 		{
 			return (helperFunction(num, i + 1));
 		}
 	}
 	else 
+
 	{
 		return (1);
 	}
