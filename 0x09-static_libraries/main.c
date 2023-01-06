@@ -1,13 +1,7 @@
 #include "main.h"
 
-/**
- * main - write about the hacker
- *
- * Return: return 0.
-*/
-
 int main(void)
 {
-	_puts("\"At the end oftheday,mygoalwastobethebesthacker\"\n\t- KevinMitnick");
+	_puts("\"At the end of the day, my goal was to be the best hacker\"\n\t- Kevin Mitnick");
 	return (0);
 }
