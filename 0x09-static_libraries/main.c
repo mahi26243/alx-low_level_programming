@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * main - write about the hacker
+ *
+ * Return: return 0.
+*/
 
 int main(void)
 {
