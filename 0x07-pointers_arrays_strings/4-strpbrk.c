@@ -6,11 +6,11 @@
  * @s: source string.
  * @accept: searching string
  *
- * Return: new string 
+ * Return: new string
+ *
 */
 char *_strpbrk(char *s, char *accept)
 {
-	
 	unsigned int i, j;
 
 
