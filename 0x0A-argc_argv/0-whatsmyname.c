@@ -2,8 +2,9 @@
 
 /**
  * main - write a program that prints its name
- * 
- * @argc: this is the aurgument count 
+ *
+ * @argc: this is the aurgument count
+ *
  * @argv: this is the aurgument vector
  *
  * Return: this return to 0.
