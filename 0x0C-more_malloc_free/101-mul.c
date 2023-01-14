@@ -8,7 +8,8 @@ void add_nums(char *final_prod, char *next_prod, int next_len);
 
 /**
  * find_len - find the length of a string
- * @str: the string to be measured 
+ * @str: the string to be measured
+ *
  *
  * Return: The length of the string.
 */
@@ -39,7 +40,8 @@ char *create_xarray(int size)
 		exit(98);
 
 	for (index = 0; index < (size - 1); index++)
-		array[index] = 'x'; 
+		array[index] = 'x';
+
 	array[index] = '\0';
 
 	return (array);
@@ -137,7 +139,8 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
 
 	while (*(final_prod + 1))
 		final_prod++;
-	
+
+
 	while (*(next_prod + 1))
 		next_prod++;
 
@@ -145,7 +148,7 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
 	{
 		num = (*final_prod - '0') + (*next_prod - '0');
 		num += tens;
-		*final_prod = (num % 10) +'0';
+		*final_prod = (num % 10) + '0';
 		tens = num / 10;
 
 		next_prod--;
@@ -156,15 +159,18 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
 	{
 		num = (*next_prod - '0');
 		num += tens;
-		*final_prod = (num % 10) +'0';
-		tens = num / 10; 
+		*final_prod = (num % 10) + '0';
+		tens = num / 10;
+
 
 		final_prod--;
 		next_prod--;
 	}
 	
+
 	if (tens)
-		*final_prod = (tens % 10) + '0'; 
+		*final_prod = (tens % 10) + '0';
+
 }
 
 /**
