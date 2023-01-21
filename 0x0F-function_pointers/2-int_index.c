@@ -29,9 +29,11 @@ int int_index(int *array, int size, int (*cmp)(int))
 			}
 			if ((cmp(array[i]) == (-1)))
 			{
-				return (m); 
+				return (m);
+
 			}
 		}
 	}
-	return (m); 
+	return (m);
+
 }
