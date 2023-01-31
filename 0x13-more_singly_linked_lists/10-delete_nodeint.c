@@ -5,6 +5,7 @@
  * @head: a pointer to the addressof the head of the listint_t list.
  * @index: ndex of the node that should be deleted. 
  *
+ *
  * Return: on success - 1
  *         on failure - -1
 */
