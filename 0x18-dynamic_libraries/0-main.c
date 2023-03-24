@@ -8,8 +8,6 @@
 */
 int main(void)
 {
-	int EXIT_SUCCESS;
-
 	printf("%d\n", _strlen("My Dyn Lib"));
 	return (EXIT_SUCCESS);
 }
